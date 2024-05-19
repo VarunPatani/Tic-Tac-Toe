@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Patrick+Hand&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sedan+SC&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <button class = "back"> <i class="fa-solid fa-backward"></i></button>
+    <h1>Tic-Tac-Toe</h1>
+    <button class = "restart"> Restart </button>
+    <div class="main-con">
+      <div class="player-con">
+        <button class="2P"><p>Play</p></button>
+      </div>
+      <div class="grid-con">
+        <div class="X text">
+          <p>
+            Player <br /><strong class = "strg_X">X</strong><br />
+            <div class="X_score"><p>0</p> </div>
+          </p>
+        </div>
+        <div class="TTT-con">
+          <button class="0"></button>
+          <button class="1"></button>
+          <button class="2"></button>
+          <button class="3"></button>
+          <button class="4"></button>
+          <button class="5"></button>
+          <button class="6"></button>
+          <button class="7"></button>
+          <button class="8"></button>
+        </div>
+        <div class="O text">
+            <p>Player <br /><strong class = "strg_O">O</strong><br />
+              <div class="O_score"><p>0</p></div>
+            </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type = "module" src="index.js"></script>
+  </body>
+</html>
